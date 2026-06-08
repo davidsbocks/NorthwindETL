@@ -43,7 +43,8 @@ a Northwind Data Warehouse using a star schema design.
 ## How to Run
 1. Restore Northwind and NorthwindDW databases from the SQL scripts in /sql
 2. Open NorthwindETL.sln in Visual Studio 2022
+3. Update connection managers to point to your SQL Server instance
+4. Run Package.dtsx or deploy to SSISDB
 ## Screenshot
 ![ETL Package Execution](https://github.com/davidsbocks/NorthwindETL/blob/main/Northwind_DW_ETL_PackageDeployment.png)
-4. Update connection managers to point to your SQL Server instance
-5. Run Package.dtsx or deploy to SSISDB
+
